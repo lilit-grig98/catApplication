@@ -1,0 +1,26 @@
+@import '../../common/common.scss';
+
+.category {
+  display: flex;
+  align-items: center;
+  color: $font-primary;
+  padding-left: 20px;
+  cursor: pointer;
+  border: 1px solid rgb(47, 9, 55);
+}
+
+.link {
+  display: flex;
+  // background-color: $secondary-color;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: $font-primary;
+  text-decoration: none;
+  outline: none;
+}
+
+.link :hover {
+  color: rgb(65, 20, 108);
+}

@@ -1,0 +1,15 @@
+@import '../common/common.scss';
+
+.header-container {
+  min-width: 1000px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary-color;
+  font-size: 50px;
+  border: 2px solid black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: $font-secondary;
+}
